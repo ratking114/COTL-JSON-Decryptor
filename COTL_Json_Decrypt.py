@@ -32,7 +32,11 @@ try:
             f.write(jsonFormatted.encode("utf-8"))
 
             print("Done!")
+
         else:
             print("Invalid save file / corrupted")
 except IOError:
      print('Error While Opening the file!')
+
+print("Press enter to continue")
+input()
